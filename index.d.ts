@@ -71,6 +71,9 @@ export interface PluginApi {
     writeText(text: string): void
     readText(): string
   }
+  fs: typeof import('fs')
+  os: typeof import('os')
+  path: typeof import('path')
   fetch(url: string, options?: {
     method?: string
     headers?: Record<string, string>
