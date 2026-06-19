@@ -1,0 +1,19 @@
+index.d.ts
+  s_d0b97cab302c33::t_54afe7923e9e8b 77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.8",
+  "base_commit_sha": "1862dcc40eb2e2170bd7009f52f193cc8bbc0b42",
+  "prompts": {},
+  "sessions": {
+    "s_d0b97cab302c33": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7662d065-7cef-47c2-a1e2-79189f926a4a",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "muhai <muhai.li@tuya.com>"
+    }
+  }
+}
