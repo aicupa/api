@@ -74,6 +74,7 @@ export interface PluginApi {
   fs: typeof import('fs')
   os: typeof import('os')
   path: typeof import('path')
+  crypto: typeof import('crypto')
   fetch(url: string, options?: {
     method?: string
     headers?: Record<string, string>
