@@ -1,0 +1,20 @@
+index.d.ts
+  s_a6262a65162716::t_3b56124cd69178 53
+  s_a6262a65162716::t_cf95fb6cf75199 51-52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.11",
+  "base_commit_sha": "3f7acf32351dd5fc31016027bdc33b920bcb83db",
+  "prompts": {},
+  "sessions": {
+    "s_a6262a65162716": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "124b9117-9896-4d03-bd48-4060f93128aa",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "muhai <muhai.li@tuya.com>"
+    }
+  }
+}
