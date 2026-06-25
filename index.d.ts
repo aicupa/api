@@ -48,6 +48,9 @@ export interface PluginSelectDirResult {
 }
 
 export interface PluginApi {
+  platform: 'electron' | 'vscode'
+  version: string
+  osPlatform: NodeJS.Platform
   reload(filePath?: string): void
   getTree(filePath?: string): Promise<any>
   relaunch(): void
